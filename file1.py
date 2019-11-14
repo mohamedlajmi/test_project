@@ -1,1 +1,1 @@
-print("THIRD VERSION FROM GITGUB")
+print("WARNING")
