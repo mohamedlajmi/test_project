@@ -1,2 +1,2 @@
-print("WARNING")
+print("WARNING-MERGED")
 
