@@ -1,2 +1,2 @@
-print("ECRASEMENT2")
+print("ECRASEMSENT2")
 
