@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="mycollection" tests="1" time="0.115">
-  <testsuite name="GET users" id="9d7a9efb-e698-4971-8797-cd6f5ea519df" timestamp="2019-11-16T15:55:49.555Z" tests="1" failures="0" errors="0" time="0.115">
-    <testcase name="Status code is 200" time="0.115" classname="Mycollection"/>
-  </testsuite>
-</testsuites>
