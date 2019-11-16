@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "491e2d17-306e-4e14-9525-0600c49f064a",
+		"name": "mycollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET users",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "15395d25-5311-4809-a73d-b48ff11e6896",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://vps750074.ovh.net:8081",
+					"protocol": "http",
+					"host": [
+						"vps750074",
+						"ovh",
+						"net"
+					],
+					"port": "8081"
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
